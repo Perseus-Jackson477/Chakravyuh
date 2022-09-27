@@ -1,14 +1,43 @@
 .notification {
-    .heading {
-        font-size: 1.5rem;
-        font-weight: 900;
-        font-family: $primary-font-family;
-        line-height: 1.75rem;
-        color: $theme-color-black19;
-        text-align: left;
-    }
+    box-sizing: border-box;
+    position: absolute;
+    width: 67.5rem;
+    height: 11.25rem;
+    left: 0rem;
+    top: 0rem;  
+    background: #000000;
+    border: 0.063rem solid #BC8B4F;
+    backdrop-filter: blur(2.813rem);
+    border-radius: 1.063rem;
+    display: flex;
 
-    .user-notif-tabs {
-        margin-top: 4%;
+    .text {
+        position: absolute;
+        width: 60.125rem;
+        height: 4rem;
+        left: 3.688rem;
+        top: 3.625rem;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+        color: #FFF4E0;
+    }
+    
+    .time{ 
+        position: absolute;
+        width: 3rem;
+        height: 1.5rem;
+        left: 62.938rem;
+        top: 8.75rem;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: #EAD5B0;
     }
 }
